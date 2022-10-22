@@ -79,7 +79,7 @@ function WeaponTweakData:_init_m60(weapon_data)
 	self.m60.crosshair.crouching.offset = 0.1
 	self.m60.crosshair.crouching.moving_offset = 0.6
 	self.m60.crosshair.crouching.kick_offset = 0.4
-	self.m60.crosshair.steelsight.hidden = false
+	self.m60.crosshair.steelsight.hidden = true
 	self.m60.crosshair.steelsight.offset = 0
 	self.m60.crosshair.steelsight.moving_offset = 0
 	self.m60.crosshair.steelsight.kick_offset = 0.14
@@ -106,8 +106,8 @@ function WeaponTweakData:_init_m60(weapon_data)
 	self.m60.panic_suppression_chance = 0.2
 	self.m60.stats = {
 		zoom = 1,
-		total_ammo_mod = 21,
-		damage = 120,
+		total_ammo_mod = 30,
+		damage = 420,
 		alert_size = 8,
 		spread = 13,
 		spread_moving = 8,
