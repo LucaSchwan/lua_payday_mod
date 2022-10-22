@@ -1,0 +1,13 @@
+{
+        'blt_version' : 2,
+        'name' : '',
+        'author' : 'ehrenschwan&HimodHurgbardt',
+        'description' : '',
+        'version' : '',
+        'hooks' : [
+                {
+                        'hook_id' : 'lib/tweak_data/weapontweakdata',
+                        'script_path' : 'hooks/enable_lmg_crosshair.lua'
+                }
+        ]
+}
